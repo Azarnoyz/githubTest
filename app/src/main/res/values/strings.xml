@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Git Repos Test</string>
+    <string name="repos">Repos</string>
+    <string name="history">History</string>
+    <string name="login">Login by github</string>
+    <string name="search">Search</string>
+    <string name="android">Android</string>
+</resources>

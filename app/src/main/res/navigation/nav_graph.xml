@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/reposListFrament">
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.azarenko.gitrepostest.ui.fragments.history.HistoryFragment"
+        android:label="history_fragment"
+        tools:layout="@layout/history_fragment" />
+    <fragment
+        android:id="@+id/reposListFrament"
+        android:name="com.azarenko.gitrepostest.ui.fragments.repositoriesList.ReposListFragment"
+        android:label="repos_list_frament_fragment"
+        tools:layout="@layout/repos_list_frament_fragment" />
+</navigation>
