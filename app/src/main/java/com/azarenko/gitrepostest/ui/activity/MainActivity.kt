@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         loginButton.setOnClickListener {
             signInWithGithub()
         }
+        skipButton.setOnClickListener {
+            goToHomeActivity()
+        }
     }
 
     private fun signInWithGithub() {

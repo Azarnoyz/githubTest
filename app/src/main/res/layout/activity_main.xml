@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.MainActivity">
 
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/skip_login"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
 
     <Button
         android:id="@+id/login_button"

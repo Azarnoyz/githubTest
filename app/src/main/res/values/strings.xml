@@ -3,6 +3,7 @@
     <string name="repos">Repos</string>
     <string name="history">History</string>
     <string name="login">Login by github</string>
+    <string name="skip_login">Skip login</string>
     <string name="search">Search</string>
     <string name="android">Android</string>
 </resources>

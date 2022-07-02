@@ -6,7 +6,8 @@ import com.azarenko.gitrepostest.data.RepositoriesData
 
 @Database(
     entities = [RepositoriesData::class],
-    version = 1
+    version = 1,
+    exportSchema = false
 )
 abstract class ReposDataBase : RoomDatabase() {
 
